@@ -3,7 +3,7 @@
 
 # ## Loading ClimateMARGO.jl
 using ClimateMARGO # Julia implementation of the MARGO model
-using PyPlot # A basic plotting package
+using Plots # A basic plotting package
 
 # Loading submodules for convenience
 using ClimateMARGO.Models

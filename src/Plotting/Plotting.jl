@@ -1,11 +1,9 @@
 module Plotting
 
-using PyPlot
 using ClimateMARGO.Models
 using ClimateMARGO.Diagnostics
 
-export
-    plot_controls, plot_emissions, plot_concentrations,
+export plot_controls, plot_emissions, plot_concentrations,
     plot_temperatures, plot_benefits, plot_damages,
     plot_state
 
